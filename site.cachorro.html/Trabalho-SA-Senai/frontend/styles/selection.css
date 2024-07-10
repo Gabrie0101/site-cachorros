@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0; 
+    position: relative;
+    position: relative; 
+    background-color: #f2f2f2;
+
+}
+
+.top-bar {
+    position: absolute; 
+    top: -50px; 
+    left: 0; 
+    width: 100%; 
+    height: auto; 
+    background-color:#023859; 
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-basis: 200;
+    flex-grow: 1;
+    
+}
+
+h1 {
+    margin-top: 75px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    
+}
+
+h3 {
+    text-align: end;
+    margin-right: 130px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button-caption {
+    position: absolute;
+    top: -100px; /* Ajuste para mover a caixa de texto para cima */
+    left: 50%; /* Centralizando horizontalmente */
+    transform: translateX(-50%); /* Centralizando horizontalmente */
+    font-size: 18px;
+    color: #fff;
+}
+
+button {
+    width:350px;
+    height: 350px;
+    font-size: 24px;
+    cursor:pointer;
+    border-radius:5%;
+    background-color: #3b3b3b;
+    margin: 10px;
+    margin-top: 200px; 
+    background-size: cover;
+    position: relative; /* Adicionando posição relativa */
+}
+
+button#botao1 {
+    background-image: url('https://i.pinimg.com/736x/55/4c/15/554c15a22ecc1ce12a017a65ef0bd401.jpg');
+    flex-grow: 1;
+    flex-basis: 200;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2), 0px 8px 16px rgba(0, 0, 0, 0.1); /* Adicionando sombras */
+    transition: box-shadow 0.3s ease; /* Adicionando uma transição suave para a sombra */
+}
+
+button#botao2 {
+    background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p3/11716181-ilustracao-de-desenho-animado-de-carro-vetor.jpg'); 
+    flex-grow: 1;
+    flex-basis: 200;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2), 0px 8px 16px rgba(0, 0, 0, 0.1); 
+    transition: box-shadow 0.5s ease; 
+}
+
+button#botao3 {
+    background-image: url('https://img.freepik.com/vetores-premium/solicitar-ilustracoes-vetoriais-de-desenhos-animados-isoladas-do-historico-escolar-do-ensino-medio_107173-21743.jpg'); 
+    flex-grow: 1;
+    flex-basis: 200;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2), 0px 8px 16px rgba(0, 0, 0, 0.1); /* Adicionando sombras */
+    transition: box-shadow 0.3s ease; 
+}
+
+
+button:hover {
+    background-color: #0f0f0f;
+    transition: 0.9s;
+    opacity: 0.7;
+}
+
+.BUTTONS {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 375px;
+    justify-content: center;
+}
+
+
+
+
